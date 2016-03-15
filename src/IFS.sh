@@ -14,6 +14,6 @@ for dato in $VAR1; do
 	# VAR2 y VAR3 antes de correr el script. Hagalo de dos
 	# formas distitas sin definirlas dentro del script
 	echo "La variable dos contiene \"$VAR2\" y \
-	tres contiene \"$VAR3\"."
+tres contiene \"$VAR3\"."
 done
 

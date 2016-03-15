@@ -4,8 +4,8 @@ VAR1="algo:otro guia, paso, calle"
 
 # Por defecto el Internal Field Separator es
 #IFS=$' \n\t'
-# Ahora lo cambiamos por :
-IFS=:
+# Realizar la prueba con dos delimitadores ":" y ","
+IFS=:,
 
 for dato in $VAR1; do
 	echo "Dato: $dato"

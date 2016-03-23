@@ -1,0 +1,344 @@
+    1  sudo apt-get update && sudo apt-get upgrade -y
+    2  uname -a
+    3  sudo apt update  && apt upgrade -y
+    4  sudo apt update  && sudo apt upgrade -y
+    5  sudo apt install qemu qemu-kvm libvirt-bin virt-manager -y
+    6  uname -a
+    7  sudo -s
+    8  cd /etc/default/
+    9  vim grub
+   10  nano grub
+   11  clear
+   12  grep -i default grub
+   13  update-grub
+   14  reboot
+   15  cat proc/cpuinfo
+   16  cat /proc/cpuinfo
+   17  cat /proc/cpuinfo | grep cores
+   18  cat /proc/cpuinfo | grep flags | grep vmx
+   19  cd Descargas/
+   20  md5sum debian-8.3.0-amd64-netinst.iso 
+   21  cd ..
+   22  sudo cp -v Descargas/*.iso  IMAGEs/.
+   23  clear
+   24  sudo -s
+   25  cd $HOME/Descargas
+   26  sudo apt-get install epoptes-client
+   27  chmod +x *.sh
+   28  sudo ./epoptes-sync.sh
+   29  sudo apt-get install epoptes-client
+   30  chmod +x *.sh
+   31  lls
+   32  ll
+   33  ls
+   34  chmod +x *.sh
+   35  sudo ./epoptes-sync.sh
+   36  ping -c 3 server
+   37  lslbk
+   38  cleart
+   39  clear
+   40  cd ..
+   41  lsblk
+   42  sudo parted -l
+   43  sudo -s
+   44  clear
+   45  top
+   46  clear
+   47  top
+   48  apt install htop
+   49  clear
+   50  htop
+   51  lvs
+   52  htop
+   53  clear
+   54  ssh sysadmin@192.168.122.249
+   55  ifconfig
+   56  ping 192.168.50.1
+   57  clear
+   58  top
+   59  xkill 
+   60  ifconfig 
+   61  service restart libvirt
+   62  service restart libvirt+
+   63  cd /etc/network
+   64  ll
+   65  apt install vim
+   66  sudo apt install vim
+   67  service libvirtd restart
+   68  service restart libvirtd
+   69  service libvirt- restart
+   70  service libvirtd restart
+   71  ll
+   72  vim interfaces
+   73  vi interfaces
+   74  service libvirtd restart
+   75  service libvirt restart
+   76  cd /etc/init.d
+   77  ls
+   78  service libvirt-bin restart
+   79  sudo pgrep libvirt
+   80  sudo pgrep libvirt -l
+   81  sudo pkilllibvirt
+   82  sudo pkill libvirt
+   83  sudo pgrep libvirt -l
+   84  service libvirt-bin restart
+   85  ll
+   86  cd /etc/network
+   87  ll
+   88  vi interfaces
+   89  apt-get update vim
+   90  apt-get install vim
+   91  sudo apt-get install vim
+   92  apt-get update
+   93  sudo apt-get update
+   94  sudo apt-get install vim
+   95  clear
+   96  ll
+   97  vim interfaces
+   98  sudo vim interfaces 
+   99  vi interfaces
+  100  nano interfaces
+  101  sudo nano interfaces
+  102  cat  interfaces
+  103  cd /etc/sysconfig/network
+  104  cd /etc/sysconfig/
+  105  sudo nano interfaces
+  106  cat  interfaces
+  107  ifdown
+  108  service network restart
+  109  sudo service network-manager restart
+  110  ifconfig
+  111  cat  interfaces
+  112  ifdown eth0
+  113  sudo ifdown eth0
+  114  sudo ifup eth0
+  115  sudo ifdown eth0
+  116  cat  interfaces
+  117  sudo nano interfaces
+  118  sudo ifdown eth0
+  119  cat  interfaces
+  120  sudo ip add show
+  121  ping google.com
+  122  sudo ping google.com
+  123  sudo ping 8.8.8.
+  124  sudo ping 8.8.8.8
+  125  sudo ip add show
+  126  ifconfig
+  127  ll
+  128  sudo nano interfaces
+  129  cat sudo nano interfaces
+  130  ping google.com
+  131  sudo su -
+  132  ifconf
+  133  if ifconf; clear
+  134  sudo apt-get install vim
+  135  vim primerPrograma.sh
+  136  apt-get install screen
+  137  vim primerPrograma.sh
+  138  sh primerPrograma.sh
+  139  printenv
+  140  printenv | grep var1
+  141  vim primerPrograma.sh
+  142  sh primerPrograma.sh
+  143  printenv
+  144  printenv | less
+  145  vim primerPrograma.sh
+  146  printenv | grep var1
+  147  printenv
+  148  set var2=456xyz
+  149  export var2
+  150  printenv
+  151  echo var2
+  152  echo $var2
+  153  set var2=456XYZ
+  154  echo $var2
+  155  export $var2
+  156  printenv 
+  157  ps
+  158  ps | less
+  159  pstree | less
+  160  ps aux | grep lightdm
+  161  kill -9 802
+  162  ifconfig
+  163  ip -4 addr
+  164  cat /etc/network/interfaces
+  165  sudo dhclient eth0
+  166  dmesg 
+  167  virsh
+  168  ls
+  169  ifconfig 
+  170  ifconfig --all
+  171  ifconfig -a
+  172  sudo dhclient eno1
+  173  ifconfig 
+  174  ping yahoo.com
+  175  cat /etc/resolv
+  176  cat /etc/resolv.conf 
+  177  ifconfig 
+  178  ping 10.124.18.35
+  179  ping yahoo.com
+  180  ping lolo.emate.ucr.ac.cr
+  181  sudo dhclient eno1
+  182  sudo dhclient -r eno1
+  183  sudo dhclient eno1
+  184  ifconfig 
+  185  ping yahoo.com
+  186  clear
+  187  vim primerPrograma.sh
+  188  sudo -s
+  189  ps ox
+  190  clear
+  191  ps aux | grep lightdm3
+  192  ps aux | grep lightdm
+  193  sudo kill -9 24072
+  194  top
+  195  htop
+  196  free
+  197  free -h
+  198  exit
+  199  sudo lightdm
+  200  init 0
+  201  history 
+  202  sudo ifconfig 
+  203  sudo dhclient eno1
+  204  sudo ifconfig 
+  205  ping yahoo.com
+  206  sudo dhclient -r eno1
+  207  sudo dhclient eno1
+  208  ping yahoo.com
+  209  history
+  210  echo $SHELL
+  211  dmesg | grep init
+  212  vim .bashrc
+  213  bash --version
+  214  echo $BASH_VERSION
+  215  source .bashrc
+  216  micomando
+  217  mkdir tmp
+  218  cd tmp
+  219  vim test1.sh
+  220  test.sh
+  221  test1.sh
+  222  sh test1.sh
+  223  bash test1.sh
+  224  clear
+  225  sh test1.sh
+  226  bash test1.sh
+  227  ls -l
+  228  ls -lh
+  229  vim test1.sh
+  230  ./test1.sh  --a --e hola
+  231  chmod test1.sh 777 
+  232  chmod --help
+  233  chmod 777 test1.sh
+  234  ./test1.sh
+  235  ./test1.sh --a --b HOLA
+  236  clear
+  237  cat test1.sh
+  238  ./test1.sh
+  239  cat test1.sh
+  240  vim
+  241  vim test1.sh
+  242  clear
+  243  vim test1.sh
+  244  vim text1.sh
+  245  vim rm text1.sh
+  246  ls
+  247  ./test1.sh
+  248  ./test1.sh -a -c hola
+  249  vim test1.sh
+  250  test1.sh -a -b -hola
+  251  ./test1.sh
+  252  cat
+  253  cat test1.sh
+  254  vim test1.sh
+  255  test1.sh
+  256  ./test.sh
+  257  ./test1.sh
+  258  ls
+  259  cat test1.sh.err
+  260  history
+  261  sudo apt-get install git
+  262  sudo dhclient -r eno1
+  263  ping yahoo.com
+  264  dhclient eno1
+  265  apt-get install git
+  266  exit
+  267  ls -l
+  268  ls -la
+  269  clear
+  270  ls
+  271  bash IFS.sh
+  272  ls -la
+  273  git status 
+  274  echo "*.swp" > .gitignore
+  275  git add IFS.sh
+  276  git add .gitignore
+  277  git status
+  278  git commit -m "Inicio del repositorio"
+  279  git config --global user.email "romasi@gmail.com"
+  280  git config --global user.name "Roy Marquez"
+  281  git log
+  282  git status
+  283  git commit -m "Inicio del Repositorio"
+  284  git log
+  285  git diff
+  286  git add IFS.sh
+  287  git commit -m "Ejemplo con paso de variables al sistema"
+  288  bash SpecVAr.sh
+  289  ls
+  290  bash SpecVar.sh
+  291  bash SpecVar.sh gato perro arbol
+  292  sudo update-alternatives --config editor
+  293  sudo apt-get install vim-nox
+  294  sudo update-alternatives --config editor
+  295  git status
+  296  git add SpecVar.sh 
+  297  git add IFS.sh 
+  298  git commit
+  299  git log
+  300  gitk
+  301  sudo apt-get install gitk
+  302  gitk
+  303  bash SpecVar.sh
+  304  bash SpecVar.sh perro gato lobo
+  305  sudo -s
+  306  cd /home
+  307  mkdir Clase1_Bash
+  308  cd Clase_Bash
+  309  ls
+  310  cd /Sysadmin/Home
+  311  cd /home
+  312  ls
+  313  cd Sysadmin
+  314  cd sysadmin
+  315  mkdir clase1_bash
+  316  ls
+  317  cd clase1_bash/
+  318  vim IFS.sh
+  319  git init
+  320  vim IFS.sh
+  321  vim SpecVar.sh
+  322  sudo dhclient -r eno1
+  323  dhclient eno1
+  324  sudo dhclient eno1
+  325  cd /
+  326  ls
+  327  cd usr
+  328  ls
+  329  cd home
+  330  cd ..
+  331  cd..
+  332  cd ..
+  333  ls
+  334  cd home
+  335  ls
+  336  cd sysadmin
+  337  ls
+  338  cd docs
+  339  ls
+  340  ls -la
+  341  mkdir history
+  342  cd history
+  343  ls
+  344  history > history

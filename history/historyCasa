@@ -94,3 +94,14 @@
    94  cd history
    95  cd history > historyCasa
    96  history > historyCasa
+    1  cd /media/sysadmin/
+    2  ls
+    3  cd LxServer2/
+    4  cd repo-lxs2/
+    5  ls
+    6  git remote add repo-lxs2 https://github.com/roy-marquez/repo-lxs2.git
+    7  cd history/
+    8  cat history
+    9  cat historyCasa
+   10  history
+   11  history >> historyCasa

@@ -319,26 +319,24 @@
   319  git init
   320  vim IFS.sh
   321  vim SpecVar.sh
-  322  sudo dhclient -r eno1
-  323  dhclient eno1
-  324  sudo dhclient eno1
-  325  cd /
-  326  ls
-  327  cd usr
-  328  ls
-  329  cd home
-  330  cd ..
-  331  cd..
-  332  cd ..
-  333  ls
-  334  cd home
-  335  ls
-  336  cd sysadmin
-  337  ls
-  338  cd docs
-  339  ls
-  340  ls -la
-  341  mkdir history
-  342  cd history
-  343  ls
-  344  history > history
+  322  history
+  323  cd /home/sysadmin/
+  324  cd docs
+  325  ls
+  326  mkdir hojasExcel
+  327  mv -r hojasDatos hojasExcel
+  328  mv hojasDatos hojasExcel
+  329  ls
+  330  cd hojasExcel
+  331  ls
+  332  cd hojasDatos/
+  333  cp *.xls /home/sysadmin/Descargas/ .
+  334  cp *.xls /home/sysadmin/Descargas/ ./
+  335  cp *.xls /home/sysadmin/Descargas/ ~/docs/hojasExcel/hojasDatos
+  336  ls
+  337  cd ..
+  338  ls
+  339  cd ..
+  340  ls
+  341  cd history/
+  342  history > history 
